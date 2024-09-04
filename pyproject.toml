@@ -1,0 +1,9 @@
+[project]
+name = "foo"
+version = "0.0.1"
+requires-python = ">=3.12"
+
+[tool.uv]
+dev-dependencies = ["flask==3.0.1"]
+index-url = "https://foo.example.com"
+extra-index-url = ["https://bar.example.com"]
